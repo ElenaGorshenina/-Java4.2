@@ -6,15 +6,16 @@ public class main {
         System.out.println("Индекс массы тела:");
         System.out.println(bodyMassIndex); //как вывести 2 цифры после запятой?
 
-        if (bodyMassIndex<18.5){
+        if (bodyMassIndex < 18.5) {
             System.out.println("Недостаточная масса тела");
         } else {
-            if (bodyMassIndex>=18.5 && bodyMassIndex<25){
+            if (bodyMassIndex >= 18.5 && bodyMassIndex < 25) {
                 System.out.println("Норма");
             } else {
-                if (bodyMassIndex>=25){
+                if (bodyMassIndex >= 25) {
                     System.out.println("Избыточная масса тела");
+                }
             }
         }
     }
-}}
+}
